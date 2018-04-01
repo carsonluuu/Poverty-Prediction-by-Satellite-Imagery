@@ -3,6 +3,17 @@
 
 *Let's find it out in this project.*
 
+Key Steps
+-------
+1. Download satellite night lights images from NOAA
+2. Download DHS data for Rwanda
+3. Test whether night lights data can predict wealth, as observed in DHS
+4. Download daytime satellite imagery from Google Maps
+5. Test whether basic features of daytime imagery can predict wealth
+6. Extract features from daytime imagery using deep learning libraries
+7. Replicate final model and results of Jean et al (2016)
+8. Construct maps showing the predicted distribution of wealth in Rwanda
+
 A night time satellite imagery:
 -----
 
