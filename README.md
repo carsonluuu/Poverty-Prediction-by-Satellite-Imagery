@@ -48,4 +48,4 @@ NOTES:
 - Geographic Datasets: `rwge61fl.zip` contains the location of each cluster in Rwanda. It is in the format of shapefile, which needs QGIS or other GIS softwares to open. For those who are not familiar with GIS tools or who want a shortcut, you can also sue the file `rwanda_clusters_location.csv` provided.
 
 the cluster locations, overlaid on the nightlights data, are shown in the figure below.
-<img src="figure/map1.png" alt="Map" style="width: 600px;"/>
+<img src="figure/map1.png" alt="Map" style="width: 400px;"/>
