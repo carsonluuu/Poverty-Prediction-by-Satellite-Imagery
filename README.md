@@ -41,3 +41,11 @@ Go to the [DMSP-OLS website](https://ngdc.noaa.gov/eog/dmsp/downloadV4composites
 The immediate goal is to take the raw survey data, covering 12,540 households, and compute the average household wealth for each survey cluster (think of a cluster as a village). Refer to the file `Recode6_DHS_22March2013_DHSG4.pdf` for information on these data.
 
 Saved output is `rwanda_cluster_avg_asset_2010.csv`.
+
+NOTES:
+- `Household Recode` contains all the attributes of each household. It provides datasets with different formats. We use `RWHR61FL.DAT` file in Flat ASCII data (.dat) format.
+- `RWHR61FL.DCF` describes the attributes and the location of each attribute.
+- Geographic Datasets: `rwge61fl.zip` contains the location of each cluster in Rwanda. It is in the format of shapefile, which needs QGIS or other GIS softwares to open. For those who are not familiar with GIS tools or who want a shortcut, you can also sue the file `rwanda_clusters_location.csv` provided.
+
+the cluster locations, overlaid on the nightlights data, are shown in the figure below.
+<img src="figure/map1.png" alt="Map" style="width: 600px;"/>
