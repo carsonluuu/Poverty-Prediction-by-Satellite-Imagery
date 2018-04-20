@@ -81,3 +81,12 @@ NOTES:
  - The function we provide below does not limit the maximum number of images downloaded per day. Note that if you attempt to  download more than the daily limit, Google will return blank images instead of an error.
  - You can organize the files however you like. However, for later analysis (Steps 6 and beyond), it may help if you organize these daytime images into 64 folders, with one folder indicating the nightlight intensity of the pixel corresponding to the daytime image. In other words, if you download a daytime image for which the corresponding nighttime pixel has value 32, store that daytime image in a folder labeled '32'. This way, all the satellite images within each folder will have the same nightlight intensity. The file name is columnIndex_rowIndex.jpg, in which row index and column index are the index in the nightlight image (See the diagram below).
  ![title](figure/data_description.png)
+
+# Construct a high-resolution map of the distribution of predicted wealth
+- **INPUT**: 
+ - Model, image features (data/model/features_all_predictimage_location.csv)
+- **OUTPUT**: 
+ - Map ('poverty_mapping.tiff')
+ 
+Use this model to calculate the predicted wealth of every one of your original images. Create a heatmap showing the distribution of predicted wealth in Rwanda.
+<img src="figure/pmap.png" alt="Map"/>
