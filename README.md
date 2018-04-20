@@ -89,4 +89,5 @@ NOTES:
  - Map ('poverty_mapping.tiff')
  
 Use this model to calculate the predicted wealth of every one of your original images. Create a heatmap showing the distribution of predicted wealth in Rwanda.
+
 <img src="figure/pmap.png" alt="Map"/>
