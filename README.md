@@ -49,3 +49,19 @@ NOTES:
 
 the cluster locations, overlaid on the nightlights data, are shown in the figure below.
 <img src="figure/map1.png" alt="Map" style="width: 400px;"/>
+
+# Merge nightlights and DHS data at cluster level
+- **INPUT**: 
+ - `F182010.v4d_web.stable_lights.avg_vis.tif`: Nightlights data, from Step 1
+ - `rwanda_cluster_avg_asset_2010.csv`: DHS cluster averages, from Step 2
+- **OUTPUT**: Merged datasets
+ - `DHS_nightlights.csv`: Merged dataset with 492 rows, and 6 columns (one indicates average cluster wealth, 5 nightlights features)
+ - Scatterplot of nightlights vs. DHS wealth
+ 
+ NOTES:
+ - The resolution of each pixel in the nightlight image is about 1km. Use 10 pixels X 10 pixels to average the luminosity of each cluster.
+ - Start by just taking the **Mean** of the luminosity in the 100 pixels and comparing this to cluster average wealth. I also compute other luminosity characteristics of each cluster, such as the **Max**, **Min**, **Standard Deviation** of the 100 pixel values, but this step is not required. Note that the file we provide (`DHS_nightlights.csv`) has these added features.
+ - To read the raw raster (nightlights) files, we recommend using the GDAL library. Use `conda install gdal` to install the GDAL library.
+
+<img src="figure/scatter2.png" alt="Map" style="width: 400px;"/>
+ 
