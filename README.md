@@ -3,6 +3,7 @@
 
 *Let's find it out in this project.*
 
+
 Key Steps
 -------
 1. Download satellite night lights images from NOAA
