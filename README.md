@@ -42,7 +42,6 @@ Go to the [DMSP-OLS website](https://ngdc.noaa.gov/eog/dmsp/downloadV4composites
 The immediate goal is to take the raw survey data, covering 12,540 households, and compute the average household wealth for each survey cluster (think of a cluster as a village). Refer to the file `Recode6_DHS_22March2013_DHSG4.pdf` for information on these data.
 
 Saved output is `rwanda_cluster_avg_asset_2010.csv`.
-
 NOTES:
 - `Household Recode` contains all the attributes of each household. It provides datasets with different formats. We use `RWHR61FL.DAT` file in Flat ASCII data (.dat) format.
 - `RWHR61FL.DCF` describes the attributes and the location of each attribute.
