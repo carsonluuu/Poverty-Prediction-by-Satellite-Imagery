@@ -1,6 +1,6 @@
-# [deprecated]Poverty Prediction by Combination of Satellite Imagery and Machine Learning
+# [Deprecated]Poverty Prediction by Combination of Satellite Imagery and Machine Learning
 
-*Some files are not able to fetch from source due to some reaseons*
+*The project is no longer maintained. Some files are not able to fetch from source due to some reaseons*
 
 *Is it feasible for you to estimate the standard of living or energy consumption of a site based night-time satellite imagery？ This means whether we can do the satellite imagery processing for socioeconomic analysis?*
 
